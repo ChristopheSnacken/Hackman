@@ -7,7 +7,7 @@
 
 .Beginning h1 {
   overflow: hidden;
-  border-right: .15em solid orange;
+  border-right: .15em solid #ff8484;
   white-space: nowrap;
   margin: 0 auto;
   letter-spacing: .15em;
@@ -23,5 +23,19 @@
 
 @keyframes blink-caret {
   from, to { border-color: transparent }
-  20% { border-color: orange; }
+  20% { border-color: #ff8484; }
+}
+a:link, a:visited  {
+  background-color: #4dccbd;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+
+
+a:hover, a:active {
+    background-color: #2374ab;
 }
