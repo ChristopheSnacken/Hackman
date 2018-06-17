@@ -16,7 +16,6 @@ class Buttons extends PureComponent {
 
 const mapStateToProps = state => {
   return {
-    newWord: state.newWord,
     guesses: state.guesses,
 
   }
