@@ -48,7 +48,7 @@ class Board extends PureComponent {
           {wrongGuessCount(this.props.newWord, this.props.guesses)}
         </h3>
 
-        {/* Ugly but works */}
+        {/* Ugly but works, have to give some attention to my kids birthday sorry!*/}
         <div className="wrapper">
           <div>
             <button className="guesses" onClick={() => this.props.makeGuess('a')}>a</button>
