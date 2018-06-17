@@ -48,7 +48,7 @@ alphabetbutton() {
         <h3>{showGuess(this.props.newWord, this.props.guesses)}</h3>
 
         <h3>
-          Number of No-No's:{''}
+          Number of No-No's:
           {wrongGuessCount(this.props.newWord, this.props.guesses)}
         </h3>
 
