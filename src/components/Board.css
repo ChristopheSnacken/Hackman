@@ -6,6 +6,14 @@
   color: #d6fff6;
   font-size: 30px;
 }
+.guesses:disabled {
+  background-color: #ff8484;
+  border-radius: 2px;
+  width: 70px;
+  height: 70px;
+  color: #d6fff6;
+  font-size: 30px;
+}
 .boo {
   color: #ff8484;
 }
